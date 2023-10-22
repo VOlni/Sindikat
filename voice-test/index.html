@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"/>
+</head>
+<body>
+<section>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+        <p class="title">Status: {{ session.Status }}</p>
+        <p class="title">Last voice message: {{ session.Voice }}</p>
+        <p class="title">Last command time: {{ session.Date }}</p>
+        <form method="POST" action="/index">
+          <a href="http://127.0.0.1:3000/voice" class="button is-block is-info is-large is-fullwidth" style="background-color: gray" name="submit_button" value = "change led">Record command</a>
+        </form>
+    </div>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,89 @@
+2023/10/19 15:49:51 [emerg] 10696#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2023/10/19 15:51:41 [error] 10728#0: *1 "testpath/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", host: "localhost:8080"
+2023/10/19 15:52:33 [error] 10728#0: *2 "testpath/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", host: "localhost:8080"
+2023/10/19 15:57:36 [error] 10816#0: *1 "testpath/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", host: "localhost:8080"
+2023/10/19 15:57:46 [notice] 10828#0: signal process started
+2023/10/19 15:57:56 [notice] 10830#0: signal process started
+2023/10/19 15:57:56 [error] 10830#0: open() "testpath/logs/nginx.pid" failed (2: No such file or directory)
+2023/10/19 15:59:59 [error] 10910#0: *1 "testpath/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", host: "localhost:8080"
+2023/10/19 16:00:07 [notice] 10918#0: signal process started
+2023/10/19 16:04:13 [notice] 10981#0: signal process started
+2023/10/19 16:04:26 [notice] 10988#0: signal process started
+2023/10/19 16:04:27 [notice] 10989#0: signal process started
+2023/10/19 16:04:27 [error] 10989#0: open() "testpath/logs/nginx.pid" failed (2: No such file or directory)
+2023/10/21 23:10:15 [error] 2254#0: *1 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/21 23:10:41 [notice] 2505#0: signal process started
+2023/10/21 23:10:41 [notice] 2506#0: signal process started
+2023/10/21 23:10:41 [error] 2506#0: open() "testpath/logs/nginx.pid" failed (2: No such file or directory)
+2023/10/21 23:13:48 [notice] 2554#0: signal process started
+2023/10/21 23:13:48 [error] 2554#0: open() "testpath/logs/nginx.pid" failed (2: No such file or directory)
+2023/10/21 23:17:27 [error] 2596#0: *1 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/21 23:17:55 [error] 2596#0: *2 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/10/21 23:18:40 [notice] 3063#0: signal process started
+2023/10/22 09:26:02 [error] 2900#0: *1 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 146.70.193.115, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "142.93.130.205:8080", referrer: "http://142.93.130.205:8080/"
+2023/10/22 09:52:36 [error] 2900#0: *7 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 10:48:52 [emerg] 6775#0: invalid URL prefix in testpath/conf/nginx.conf:49
+2023/10/22 10:48:57 [emerg] 6777#0: invalid URL prefix in testpath/conf/nginx.conf:49
+2023/10/22 10:49:18 [emerg] 6786#0: invalid URL prefix in testpath/conf/nginx.conf:49
+2023/10/22 10:50:32 [error] 2900#0: *13 open() "testpath/www/cup" failed (2: No such file or directory), client: 146.70.193.51, server: localhost, request: "GET /cup HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 10:59:34 [error] 2900#0: *16 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 149.18.81.133, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 11:03:41 [error] 2900#0: *19 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 12:52:13 [error] 2900#0: *32 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 13:55:36 [error] 2900#0: *37 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 14:11:17 [error] 2900#0: *40 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.146.25.75, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 15:08:15 [error] 2900#0: *53 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 149.18.81.133, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 15:09:48 [error] 2900#0: *55 open() "testpath/www/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:48 [error] 2900#0: *56 open() "testpath/www/conf/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /conf/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:48 [error] 2900#0: *57 open() "testpath/www/wp-content/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /wp-content/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:48 [error] 2900#0: *58 open() "testpath/www/wp-admin/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /wp-admin/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:49 [error] 2900#0: *59 open() "testpath/www/library/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /library/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:49 [error] 2900#0: *60 open() "testpath/www/new/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /new/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:49 [error] 2900#0: *61 open() "testpath/www/vendor/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /vendor/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:49 [error] 2900#0: *62 open() "testpath/www/old/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /old/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:50 [error] 2900#0: *63 open() "testpath/www/local/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /local/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:50 [error] 2900#0: *64 open() "testpath/www/api/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /api/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:50 [error] 2900#0: *65 open() "testpath/www/blog/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /blog/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:50 [error] 2900#0: *66 open() "testpath/www/crm/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /crm/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:51 [error] 2900#0: *67 open() "testpath/www/admin/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /admin/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:51 [error] 2900#0: *68 open() "testpath/www/laravel/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /laravel/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:51 [error] 2900#0: *69 open() "testpath/www/app/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /app/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:51 [error] 2900#0: *70 open() "testpath/www/app/config/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /app/config/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:51 [error] 2900#0: *71 open() "testpath/www/apps/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /apps/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:52 [error] 2900#0: *72 open() "testpath/www/audio/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /audio/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:52 [error] 2900#0: *73 open() "testpath/www/cgi-bin/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /cgi-bin/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:52 [error] 2900#0: *74 open() "testpath/www/backend/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /backend/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:52 [error] 2900#0: *75 open() "testpath/www/src/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /src/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:53 [error] 2900#0: *76 open() "testpath/www/base/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /base/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:53 [error] 2900#0: *77 open() "testpath/www/core/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /core/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:53 [error] 2900#0: *78 open() "testpath/www/vendor/laravel/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /vendor/laravel/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:53 [error] 2900#0: *79 open() "testpath/www/storage/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /storage/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:53 [error] 2900#0: *80 open() "testpath/www/protected/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /protected/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:54 [error] 2900#0: *81 open() "testpath/www/newsite/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /newsite/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:54 [error] 2900#0: *82 open() "testpath/www/www/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /www/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:54 [error] 2900#0: *83 open() "testpath/www/sites/all/libraries/mailchimp/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /sites/all/libraries/mailchimp/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:54 [error] 2900#0: *84 open() "testpath/www/database/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /database/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:54 [error] 2900#0: *85 open() "testpath/www/public/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /public/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:55 [error] 2900#0: *86 open() "testpath/www/142.93.130.205:8080/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /142.93.130.205:8080/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:55 [error] 2900#0: *87 open() "testpath/www/www-data/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /www-data/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:55 [error] 2900#0: *88 open() "testpath/www/mysql/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /mysql/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:55 [error] 2900#0: *89 open() "testpath/www/bin/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /bin/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:55 [error] 2900#0: *90 open() "testpath/www/apache/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /apache/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:56 [error] 2900#0: *91 open() "testpath/www/adm/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /adm/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:56 [error] 2900#0: *92 open() "testpath/www/local/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /local/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:56 [error] 2900#0: *93 open() "testpath/www/data/.env" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /data/.env HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:09:56 [error] 2900#0: *95 open() "testpath/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 5.189.157.65, server: localhost, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 15:50:47 [error] 2900#0: *99 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 16:06:34 [error] 2900#0: *105 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 152.32.156.158, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 16:06:37 [error] 2900#0: *106 open() "testpath/www/robots.txt" failed (2: No such file or directory), client: 152.32.156.158, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 16:06:43 [error] 2900#0: *107 open() "testpath/www/sitemap.xml" failed (2: No such file or directory), client: 152.32.156.158, server: localhost, request: "GET /sitemap.xml HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 17:15:44 [error] 2900#0: *118 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 149.18.81.133, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 17:39:28 [error] 2900#0: *120 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 18:28:17 [error] 2900#0: *122 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 149.18.81.133, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 19:18:23 [error] 2900#0: *131 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 167.94.146.57, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 19:35:26 [error] 2900#0: *133 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.146.25.75, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 19:40:43 [error] 2900#0: *137 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.73.158.102, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 19:46:38 [error] 2900#0: *142 open() "testpath/www/favicon.ico" failed (2: No such file or directory), client: 118.123.105.93, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 19:46:39 [error] 2900#0: *143 open() "testpath/www/robots.txt" failed (2: No such file or directory), client: 118.123.105.93, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 19:46:39 [error] 2900#0: *144 open() "testpath/www/.well-known/security.txt" failed (2: No such file or directory), client: 118.123.105.93, server: localhost, request: "GET /.well-known/security.txt HTTP/1.1", host: "142.93.130.205:8080"
+2023/10/22 19:46:55 [error] 2900#0: *146 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 149.18.81.133, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
+2023/10/22 19:54:05 [error] 2900#0: *148 open() "testpath/www/j/collect" failed (2: No such file or directory), client: 216.146.25.75, server: localhost, request: "GET http://www.google-analytics.com/j/collect HTTP/1.1", host: "www.google-analytics.com"
